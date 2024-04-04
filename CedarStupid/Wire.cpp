@@ -10,8 +10,8 @@ void Wire::setDrive(Gate* gate) {
 	drives.push_back(gate);
 }
 
-void Wire::setHistory(char v) {
-	history.push_back(v);
+void Wire::setHistory(vector<char> newWireHistory) {
+	history = newWireHistory;
 }
 
 char Wire::getValue() const {

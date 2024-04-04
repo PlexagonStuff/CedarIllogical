@@ -11,10 +11,11 @@ class Wire {
 			value = v;
 			this->name = name;
 			drives = d;
+			setHistory(vector<char> {'X'});
 		}
 		void setValue(char v);
 		void setDrive(Gate* gate);
-		void setHistory(char v);
+		void setHistory(vector<char> newWireHistory);
 		char getValue() const;
 		vector<char> getHistory() const;
 		string getName() const;

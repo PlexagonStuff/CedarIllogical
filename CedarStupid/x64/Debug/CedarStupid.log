@@ -1,2 +1,5 @@
-﻿  Event.cpp
-  CedarStupid.vcxproj -> C:\Users\plexa\Documents\Object Oriented Projects\CS1220-Projects\x64\Debug\CedarStupid.exe
+﻿  main.cpp
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarStupid\main.cpp(148,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarStupid\main.cpp(176,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarStupid\main.cpp(190,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CedarStupid.vcxproj -> C:\Users\plexa\Documents\GitHub\CedarStupid\CedarStupid\x64\Debug\CedarStupid.exe

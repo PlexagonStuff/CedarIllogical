@@ -28,6 +28,9 @@ Wire* Gate::getOutput() const {
 
 char Gate::evaluate(int time) const {
 	int evalTime = time - delay;
+	if (evalTime > input1->getHistory().size()-1) {
+		evalTime = input1->getHistory().size() - 1;
+	}
 	if (type == "NOT") {
 		if (input1->getHistory().at(evalTime) == 'X') {
 			return 'X';

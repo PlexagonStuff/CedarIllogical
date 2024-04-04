@@ -7,14 +7,21 @@ class Event {
 
 public:
 	Event();
-	Event(int index, int t, int v, int c, string n);
+	Event(int index, int t, char v, int c, string n);
+	void print();
 	friend bool operator<(const Event& c1, const Event& c2);
+	int getWireIndex() const { return wireIndex; }
+	int getTime() const { return time; }
+	char getValue() const { return value; }
+	int getCount() const { return count; }
+	string getName() const {return name;}
 
 private:
 	int wireIndex;
 	int time;
-	int value;
 	int count;
+	char value;
+
 	string name;
 	 
 };
