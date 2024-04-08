@@ -52,7 +52,7 @@ void printSimulation(vector<Wire*>& w) {
 
 void readFunctionFile(vector<Wire*> &w, vector<Gate*> &g) {
     string line;
-    ifstream myfile("C:/Users/plexa/Downloads/Term Project Files CS1220/Term Project Files/Additional Circuit Description Files/circuit7.txt");
+    ifstream myfile("C:/Users/plexa/Downloads/Term Project Files CS1220/Term Project Files/Additional Circuit Description Files/circuit0.txt");
     if (myfile.is_open())
     {
         while (getline(myfile, line))
@@ -106,7 +106,7 @@ void readFunctionFile(vector<Wire*> &w, vector<Gate*> &g) {
 
 void readVectorFile(vector<Wire*>& w, vector<Gate*>& g, priority_queue<Event>& eq) {
     string line;
-    ifstream myfile("C:/Users/plexa/Downloads/Term Project Files CS1220/Term Project Files/Additional Circuit Description Files/circuit7_v.txt");
+    ifstream myfile("C:/Users/plexa/Downloads/Term Project Files CS1220/Term Project Files/Additional Circuit Description Files/circuit0_v.txt");
     if (myfile.is_open())
     {
         Event newEvent;
