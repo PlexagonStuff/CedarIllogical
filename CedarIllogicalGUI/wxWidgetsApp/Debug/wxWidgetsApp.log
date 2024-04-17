@@ -1,0 +1,12 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  SubGUIClass.cpp
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(60,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(67,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(117,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(160,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(196,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(221,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(236,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(241,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\SubGUIClass.cpp(247,35): warning C4018: '<': signed/unsigned mismatch
+  wxWidgetsApp.vcxproj -> C:\Users\plexa\Documents\GitHub\CedarStupid\CedarIllogicalGUI\wxWidgetsApp\Debug\wxWidgetsApp.exe
